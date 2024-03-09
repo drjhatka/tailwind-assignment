@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Ice Hockey Home</title>
 </head>
 
 <body class="container m-auto">
+    <!-- Minimum Code leads to Maximum Output -->
     <header>
         <!-- navbar section -->
         <section>
@@ -23,7 +25,7 @@
                     <div class="h-96 w-full">
                         <img src="Images/1.png" class="w-full h-full object-cover" />
                     </div>
-                    <div class="absolute lg:top-72 lg:flex top-72 left-32 space-x-20 lg:left-12 justify-between w-56  px-4 ">
+                    <div class="absolute lg:top-72 lg:flex  top-72 left-32 space-x-20 lg:space-x-4 lg:left-12  w-56  px-4 ">
                         <a href="#slide3" class="btn btn-circle bg-blue-600 text-white">❮</a>
                         <a href="#slide2" class="btn btn-circle bg-blue-600 text-white">❯</a>
                     </div>
@@ -32,7 +34,7 @@
                     <div class="h-96 w-full">
                         <img src="Images/2.png" class="w-full h-full object-cover" />
                     </div>
-                    <div class="absolute lg:top-72 lg:flex top-72 left-32 space-x-20 lg:left-12 justify-between w-56  px-4 ">
+                    <div class="absolute lg:top-72 lg:flex  top-72 left-32 space-x-20 lg:space-x-4 lg:left-12  w-56  px-4 ">
                         <a href="#slide1" class="btn btn-circle bg-blue-600 text-white">❮</a>
                         <a href="#slide3" class="btn btn-circle bg-blue-600 text-white">❯</a>
                     </div>
@@ -41,7 +43,7 @@
                     <div class="h-96 w-full">
                         <img src="Images/3.png" class="w-full h-full object-cover" />
                     </div>
-                    <div class="absolute lg:top-72 lg:flex top-72 left-32 space-x-20 lg:left-12 justify-between w-56  px-4 ">
+                    <div class="absolute lg:top-72 lg:flex  top-72 left-32 space-x-20 lg:space-x-4 lg:left-12  w-56  px-4 ">
                         <a href="#slide2" class="btn btn-circle bg-blue-600 text-white">❮</a>
                         <a href="#slide1" class="btn btn-circle bg-blue-600 text-white">❯</a>
                     </div>
@@ -52,16 +54,224 @@
 
     <main>
         <!-- stat section -->
-        <section>
+        <section class="flex flex-col pt-4 ">
+            <!-- title -->
+           <div class="flex flex-col  m-auto justify-center items-center text-center gap-8 pb-10">
+                <h1 class="text-4xl font-bold w-full m-auto">Montreal Canadians Ice Hockey Club</h1>
+                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it high</small>
+           </div>
+           <!-- dials -->
+           <div class="flex gap-12 pt-10  lg:flex-row flex-col justify-center items-center border-t-2 border-b-2 py-5">
+               <div class="border-2 flex py-6 flex-col items-center">
+                   <div class="radial-progress text-primary " style="--value:56;" role="progressbar">56%</div>
+                   <h2>Prayer Facility</h2>
+                   <small>We have special prayer facilities just for you</small>
+            </div>
+            <div class="border-2 flex py-6 flex-col items-center">
+                <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+                <h2>Prayer Facility</h2>
+                   <small>We have special prayer facilities just for you</small>
+            </div>
+            <div class="border-2 flex py-6 flex-col items-center">
+                    <div class="radial-progress text-danger" style="--value:87;" role="progressbar">87%</div>
+                    <h2>Prayer Facility</h2>
+                    <small>We have special prayer facilities just for you</small>
+            </div>
+            <div class="border-2 px-3 flex py-6 flex-col items-center">
+                    <div class="radial-progress text-green-500" style="--value:70;" role="progressbar">70%</div>
+                    <h2>Prayer Facility</h2>
+                    <small>We have special prayer facilities just for you</small>
+            </div>
 
+           </div>
         </section>
         <!-- program section -->
         <section>
-
+            <div class="flex flex-col  m-auto justify-center items-center text-center gap-8 pb-10 pt-10">
+                <h1 class="text-4xl font-bold w-full m-auto">Montreal Canadians Ice Hockey Club</h1>
+                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it high</small>
+           </div>
+           <div class="grid grid-col-1 w-full lg:grid-cols-2 gap-3   ">
+                
+                    <div style="background-image: linear-gradient(rgba(82, 73, 86, 0.9), rgba(157, 149, 160, 0.2)), url('./Images/2.png'); "
+                        class=" flex gap-5 flex-col text-white bg-length[100%_100%] bg-cover bg-no-repeat w-[100%] rounded-lg pl-10 pt-10 h-72 justify-center items-center lg:items-start">     
+                            <h1 class="text-xl font-bold">Junior Program</h1>
+                           <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
+                           <button class="bg-amber-600 w-40 rounded-lg px-4 py-2 font-bold text-lg text-white">Register Now</button>
+                    </div>
+                    <div style="background-image: linear-gradient(rgba(82, 73, 86, 0.9), rgba(157, 149, 160, 0.2)), url('./Images/3.png'); "
+                        class=" flex gap-5 flex-col text-white bg-length[100%_100%] bg-cover bg-no-repeat w-[100%] rounded-lg pl-10 pt-10 h-72 justify-center items-center lg:items-start">     
+                            
+                    <h1 class="text-xl font-bold">Junior Program</h1>
+                       <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
+                       <button class="bg-amber-600 w-40 rounded-lg px-4 py-2 font-bold text-lg text-white">Register Now</button>
+                     </div>
+                    
+                     <div style="background-image: linear-gradient(rgba(82, 73, 86, 0.9), rgba(157, 149, 160, 0.2)), url('./Images/4.png'); "
+                     class=" flex gap-5 lg:col-span-2 flex-col text-white bg-length[100%_100%] bg-cover justify-center items-center lg:items-start rounded-lg pl-10 pt-10 pb-10 lg:h-96 ">     
+                         <h1 class="text-xl font-bold">Junior Program</h1>
+                        <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        <button class="bg-amber-600 w-40 rounded-lg px-4 py-2 font-bold text-lg text-white">Register Now</button>
+                 </div>
+                 
+               
+           </div>
         </section>
         <!-- new product section -->
-        <section>
+        <section class="flex flex-col">
+            <div class="flex flex-col  m-auto justify-center items-center text-center gap-8 pb-10 pt-10">
+                <h1 class="text-4xl font-bold w-full m-auto">Our New Products</h1>
+                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it high</small>
+           </div>
+           <div class="grid rounded-lg pt-2 px-2 pb-2 gap-3 grid-cols-1 lg:grid-cols-2">
+                <div class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    <div class=" w-full flex justify-center">
+                        <img class="h-full w-10/12 object-cover" src="Images/5.png"  alt="">
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div class="flex gap-4">
+                            <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
+                            <h3 class="font-light">5.00</h3>
+                            <h3><i class="fa fa-eye text-red-800" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">20</h3>
+                            <h3><i class="fa fa-heart text-blue-700" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">200</h3>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
+                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        </div>
+                        <div class="flex justify-between items-center ">
+                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
+                            
+                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery Fee:Free</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    <div class=" w-full flex justify-center">
+                        <img class="h-full w-10/12 object-cover" src="Images/6.png"  alt="">
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div class="flex gap-4">
+                            <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
+                            <h3 class="font-light">5.00</h3>
+                            <h3><i class="fa fa-eye text-red-800" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">20</h3>
+                            <h3><i class="fa fa-heart text-blue-700" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">200</h3>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
+                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        </div>
+                        <div class="flex justify-between items-center ">
+                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
+                            
+                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery Fee:Free</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    <div class=" w-full flex justify-center">
+                        <img class="h-full w-10/12 object-cover" src="Images/7.png"  alt="">
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div class="flex gap-4">
+                            <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
+                            <h3 class="font-light">5.00</h3>
+                            <h3><i class="fa fa-eye text-red-800" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">20</h3>
+                            <h3><i class="fa fa-heart text-blue-700" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">200</h3>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
+                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        </div>
+                        <div class="flex justify-between items-center ">
+                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
+                            
+                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery Fee:Free</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    <div class=" w-full flex justify-center">
+                        <img class="h-full w-10/12 object-cover" src="Images/8.png"  alt="">
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div class="flex gap-4">
+                            <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
+                            <h3 class="font-light">5.00</h3>
+                            <h3><i class="fa fa-eye text-red-800" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">20</h3>
+                            <h3><i class="fa fa-heart text-blue-700" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">200</h3>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
+                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        </div>
+                        <div class="flex justify-between items-center ">
+                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
+                            
+                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery Fee:Free</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    <div class=" w-full flex justify-center">
+                        <img class="h-full w-10/12 object-cover" src="Images/9.png"  alt="">
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div class="flex gap-4">
+                            <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
+                            <h3 class="font-light">5.00</h3>
+                            <h3><i class="fa fa-eye text-red-800" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">20</h3>
+                            <h3><i class="fa fa-heart text-blue-700" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">200</h3>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
+                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        </div>
+                        <div class="flex justify-between items-center ">
+                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
+                            
+                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery Fee:Free</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    <div class=" w-full flex justify-center">
+                        <img class="h-full w-10/12 object-cover" src="Images/10.png"  alt="">
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div class="flex gap-4">
+                            <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
+                            <h3 class="font-light">5.00</h3>
+                            <h3><i class="fa fa-eye text-red-800" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">20</h3>
+                            <h3><i class="fa fa-heart text-blue-700" aria-hidden="true"></i></h3>
+                            <h3 class="font-light">200</h3>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
+                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                        </div>
+                        <div class="flex justify-between items-center ">
+                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
+                            
+                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery Fee:Free</small>
+                        </div>
+                    </div>
+                </div>
 
+              
+                
+           </div>
         </section>
         <!-- client section -->
         <section>
