@@ -4,33 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Daisy UI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Googel Font -Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Ice Hockey Home</title>
 
     <style>
         .manrope {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  
-}
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+        }
     </style>
 </head>
 
+<!-- Minimum Code ==> Maximum Output -->
 <body class="manrope">
-    <!-- Minimum Code leads to Maximum Output -->
+    <!-- Header Section with Slider -->
     <header class="container m-auto">
         <!-- navbar section -->
         <section>
-            <div class="navbar bg-base-100 px-0">
+            <div class="navbar bg-base-100 px-0 py-4 pb-5">
                 <div class="navbar-start ">
                     <div class="dropdown text-center">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -43,22 +43,25 @@
                         <ul tabindex="0"
                             class="menu menu-md dropdown-content mt-3 z-[1] p-2 pb-8 bg-amber-50  text-blue font-bold text-xl  w-96 text-center">
                             <li class="border-b-2 border-red-500  w-full mx-auto text-center"><a
-                                    class="hover:text-red-700 hover:bg-transparent w-full mx-auto text-center">Home</a>
-                            </li>
+                                    class="hover:text-red-700 hover:bg-transparent w-full mx-auto text-center">Habs</a></li>
                             <li class="border-b-2 border-red-500"><a
-                                    class="hover:text-red-700 hover:bg-transparent">Blog</a></li>
+                                    class="hover:text-red-700 hover:bg-transparent">Fans</a></li>
                             <li class="border-b-2 border-red-500"><a
-                                    class="hover:text-red-700 hover:bg-transparent">Contact</a></li>
+                                    class="hover:text-red-700 hover:bg-transparent">Community</a></li>
+                            <li class="border-b-2 border-red-500"><a
+                                class="hover:text-red-700 hover:bg-transparent">Arena</a></li>
+                                <li class="border-b-2 border-red-500"><a
+                                    class="hover:text-red-700 hover:bg-transparent">Shop</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-2xl  px-0 font-bold">Ice Hockey</a>
+                    <a class="btn btn-ghost text-2xl  px-0 font-bold"><i class="fas fa-hockey-puck text-red-500"></i><span><span class="text-red-500">I</span>ce <span class="text-red-600">H</span>ockey</span></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a class="text-red-500 font-bold">Home</a></li>
-                        <li class="hover:bg-none"><a class="hover:text-red-500 hover:bg-none font-bold">About</a></li>
-                        <li><a class="hover:text-red-500 font-bold">Page</a></li>
-                        <li><a class="hover:text-red-500 font-bold">Blog</a></li>
+                        <li><a class="text-red-500 font-bold">Habs</a></li>
+                        <li><a class="hover:text-red-500 font-bold">Fans</a></li>
+                        <li><a class="hover:text-red-500 font-bold">Arena</a></li>
+                        <li><a class="hover:text-red-500 font-bold">Shop</a></li>
                         <li><a class="hover:text-red-500 font-bold">Contact</a></li>
                     </ul>
                 </div>
@@ -66,7 +69,7 @@
                     <input type="text" placeholder="Search site"
                         class="hidden lg:block input input-bordered w-44 outline-none bg-blue-200 active:bg-yellow-200 border-none focus:none border-b-red-600 border-t-red-600" />
                     <i class="fa fa-search absolute right-32 hidden lg:block text-blue-500" aria-hidden="true"></i>
-                    <a class="btn bg-red-400 text-white px-5 hover:bg-green-700 hover:text-white">Button</a>
+                    <a class="btn bg-red-400 text-white px-5 hover:bg-green-700 hover:text-white">Tickets</a>
                 </div>
             </div>
         </section>
@@ -75,7 +78,7 @@
             <div class="carousel w-full rounded-lg">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="h-96 w-full">
-                        <img src="Images/1.png" class="w-full h-full object-cover" />
+                        <img src="Images/slide-1.webp" class="w-full h-full object-cover" />
                     </div>
                     <div
                         class="absolute lg:top-72 lg:flex  top-72 left-32 space-x-20 lg:space-x-4 lg:left-12  w-56  px-4 ">
@@ -85,7 +88,7 @@
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <div class="h-96 w-full">
-                        <img src="Images/2.png" class="w-full h-full object-cover" />
+                        <img src="Images/slide-2.webp" class="w-full h-full object-cover" />
                     </div>
                     <div
                         class="absolute lg:top-72 lg:flex  top-72 left-32 space-x-20 lg:space-x-4 lg:left-12  w-56  px-4 ">
@@ -95,7 +98,7 @@
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <div class="h-96 w-full">
-                        <img src="Images/3.png" class="w-full h-full object-cover" />
+                        <img src="Images/slider-3.jpg" class="w-full h-full object-cover" />
                     </div>
                     <div
                         class="absolute lg:top-72 lg:flex  top-72 left-32 space-x-20 lg:space-x-4 lg:left-12  w-56  px-4 ">
@@ -105,8 +108,8 @@
                 </div>
             </div>
             <div class="mx-auto w-full lg:absolute lg:top-48 lg:left-[60%] rounded-lg  bg-black text-white lg:w-96 px-6 py-4">
-                <h1 class="font-bold">Meet all the heroes from the field</h1>
-                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <h1 class="font-bold">Meet all the <span class="text-red-400 font-bold">HABS</span> from the field</h1>
+                <p>The Montreal Canadiens have had numerous players throughout their history who are considered heroes by fans </p>
             </div>
         </section>
     </header>
@@ -115,49 +118,47 @@
         <!-- stat section -->
         <section class="flex flex-col pt-4 ">
             <!-- title -->
-            <div class="flex flex-col  m-auto justify-center items-center text-center gap-8 pb-10">
-                <h1 class="text-4xl font-bold w-full m-auto">Montreal Canadians Ice Hockey Club</h1>
-                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it
-                    high</small>
+            <div class="flex flex-col border-t-2 w-full m-auto justify-center items-center text-center gap-4 pb-10 pt-10">
+                <h1 class="text-4xl font-bold w-full m-auto">Montreal Canadiens Club</h1>
+                <small class="w-full opacity-80 mx-auto text-center"> The longest continuously operating professional <br> <span class="text-red-800 font-bold">ice hockey</span> team  in North America.</small>
             </div>
             <!-- dials -->
-            <div class="flex gap-12 pt-10  lg:flex-row flex-col justify-center items-center border-t-2 border-b-2 py-5">
+            <div class="flex gap-4 pt-10 justify-evenly  lg:flex-row flex-col  items-center border-t-2 border-b-2 py-5">
                 <div class=" flex gap-6 py-6 flex-col items-center">
                     <div class="radial-progress text-xl text-red-500 " style="--value:56;" role="progressbar">56%</div>
-                    <h2 class="font-bold">Prayer Facility</h2>
-                    <small>We have special prayer facilities just for you</small>
+                    <h2 class="font-bold">Fan Club</h2>
+                    <small class="text-center">We have special fan clubs just for diehard fans like you</small>
                 </div>
                 <div class=" flex gap-6 py-6 flex-col items-center">
                     <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
-                    <h2 class="font-bold">Prayer Facility</h2>
-                    <small>We have special prayer facilities just for you</small>
+                    <h2 class="font-bold">Expert Coach</h2>
+                    <small class="text-center">Handpicked coach with years of Expertise in the sports industry</small>
                 </div>
                 <div class=" flex py-6 gap-6 flex-col items-center">
                     <div class="radial-progress text-danger" style="--value:87;" role="progressbar">87%</div>
-                    <h2 class="font-bold">Prayer Facility</h2>
-                    <small>We have special prayer facilities just for you</small>
+                    <h2 class="font-bold">Top Players</h2>
+                    <small class="text-center">Number of award winner players assist you reach your goal.</small>
                 </div>
                 <div class=" px-3 flex gap-6 py-6 flex-col items-center">
                     <div class="radial-progress text-green-500" style="--value:70;" role="progressbar">70%</div>
-                    <h2 class="font-bold">Prayer Facility</h2>
-                    <small>We have special prayer facilities just for you</small>
+                    <h2 class="font-bold">Indoor Training</h2>
+                    <small class="text-center">At Montreal and Laval, four indoor ice hockey fields for training</small>
                 </div>
 
             </div>
         </section>
         <!-- program section -->
         <section>
-            <div class="title_container">
-                <h1 class="text-4xl font-bold w-full m-auto">Montreal Canadians Ice Hockey Club</h1>
-                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it
-                    high</small>
+            <div class="flex flex-col border-t-2 w-full m-auto justify-center items-center text-center gap-4 pb-10 pt-10">
+                <h1 class="text-4xl font-bold w-full m-auto"><span class="text-[#ff9933]">HABS</span> Programs</h1>
+                <small class="w-full opacity-80 mx-auto text-center">Tailored made programs to help you ace in NHL battle and achieve your stardom,<br> Why wait join one of our programs today</small>
             </div>
             <div class="grid grid-col-1 w-full lg:grid-cols-2 gap-3   ">
 
                 <div style="background-image: linear-gradient(rgba(82, 73, 86, 0.9), rgba(157, 149, 160, 0.2)), url('./Images/2.png'); "
                     class=" flex gap-5 flex-col text-white bg-length[100%_100%] bg-cover bg-no-repeat w-[100%] rounded-lg pl-10 pt-10 h-72 justify-center items-center lg:items-start">
                     <h1 class="text-xl font-bold">Junior Program</h1>
-                    <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
+                    <small class=" text-wrap">Start from an early age and develop and hone your skills for the years to come so you dont miss your dream and make it happen sooner than ever</small>
                     <button class="bg-amber-600 w-40 rounded-lg px-4 py-2 font-bold text-lg text-white">Register
                         Now</button>
                 </div>
@@ -165,35 +166,34 @@
                     class=" flex gap-5 flex-col text-white bg-length[100%_100%] bg-cover bg-no-repeat w-[100%] rounded-lg pl-10 pt-10 h-72 justify-center items-center lg:items-start">
 
                     <h1 class="text-xl font-bold">Women Hockey Program</h1>
-                    <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
+                    <small>They say women posess the creative power of nature, lets pave the way for them to show their skills in Canada's national sports ice hockey</small>
                     <button class="bg-amber-600 w-40 rounded-lg px-4 py-2 font-bold text-lg text-white">Register
                         Now</button>
                 </div>
 
-                <div style="background-image: linear-gradient(rgba(82, 73, 86, 0.9), rgba(157, 149, 160, 0.2)), url('./Images/4.png'); "
+                <div style="background-image: linear-gradient(rgba(82, 73, 86, 0.9), rgba(157, 149, 160, 0.5)), url('./Images/4.png'); "
                     class=" flex gap-5 lg:col-span-2 flex-col text-white bg-length[100%_100%] bg-cover justify-center items-center lg:items-start rounded-lg pl-10 pt-10 pb-10 lg:h-96 ">
                     <h1 class="text-xl font-bold">Bootcamp Program</h1>
-                    <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
-                    <button class="btn-primary">Register Now</button>
+                    <small>Bootcamps are an excellent place to get intensive training and is meant to prepare <br>the player from ground up so the player knows the battleground well enough</small>
+                    <button class="bg-amber-600 w-40 rounded-lg px-4 py-2 font-bold text-lg text-white">Register Now</button>
                 </div>
 
 
             </div>
         </section>
         <!-- new product section -->
-        <section class="flex flex-col">
-            <div class="title_container">
-                <h1 class="text-4xl font-bold w-full m-auto">Our New Products</h1>
-                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it
-                    high</small>
+        <section class="flex flex-col ">
+            <div class="flex flex-col border-t-2 w-full m-auto justify-center items-center text-center gap-4 pb-10 pt-16">
+                <h1 class="text-4xl font-bold w-full m-auto"><span class="text-[#ff9933]">Our New Products</h1>
+                <small class="w-full opacity-80 mx-auto text-center">Shop our products online choose your favorite cap, jersy, hockey puck <br>or a ton of other stuff from a great selection of items</small>
             </div>
             <div class="grid rounded-lg pt-2 px-2 pb-2 gap-3 grid-cols-1 lg:grid-cols-2">
                 <div
-                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2 w-[100%]  gap-4 border-3">
                     <div class=" w-full flex justify-center">
-                        <img class="h-full w-10/12 object-cover" src="Images/5.png" alt="">
+                        <img class="h-full w-full object-cover" src="Images/5.png" alt="">
                     </div>
-                    <div class="flex flex-col gap-7">
+                    <div class="flex flex-col gap-3">
                         <div class="flex gap-4">
                             <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
                             <h3 class="font-light">5.00</h3>
@@ -204,22 +204,24 @@
                         </div>
                         <div class="flex flex-col gap-4">
                             <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                            <small class="">Get this exciting product with a discount for those who have coupon codes.</small>
                         </div>
-                        <div class="flex justify-between items-center ">
-                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
-
-                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery
-                                Fee:Free</small>
+                        <div class="flex w-[100%] gap-6 ">
+                            <div>
+                                <h1 class="text-red-800 font-bold ">Price-$27.00</h1>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <small><i class="fas fa-cart-plus text-red-800 mr-1 "></i>Delivery:Free</small>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2 w-[100%]  gap-4 border-3">
                     <div class=" w-full flex justify-center">
-                        <img class="h-full w-10/12 object-cover" src="Images/6.png" alt="">
+                        <img class="h-full w-full object-cover" src="Images/6.png" alt="">
                     </div>
-                    <div class="flex flex-col gap-7">
+                    <div class="flex flex-col gap-3">
                         <div class="flex gap-4">
                             <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
                             <h3 class="font-light">5.00</h3>
@@ -229,23 +231,25 @@
                             <h3 class="font-light">200</h3>
                         </div>
                         <div class="flex flex-col gap-4">
-                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                            <h1 class="text-xl font-bold">Golden Eagle Green Ball</h1>
+                            <small class="">Get this exciting product with a discount for those who have coupon codes.</small>
                         </div>
-                        <div class="flex justify-between items-center ">
-                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
-
-                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery
-                                Fee:Free</small>
+                        <div class="flex w-[100%] gap-6 ">
+                            <div>
+                                <h1 class="text-red-800 font-bold ">Price-$43.00</h1>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <small><i class="fas fa-cart-plus text-red-800 mr-1 "></i>Delivery:Pay</small>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2 w-[100%]  gap-4 border-3">
                     <div class=" w-full flex justify-center">
-                        <img class="h-full w-10/12 object-cover" src="Images/7.png" alt="">
+                        <img class="h-full w-full object-cover" src="Images/7.png" alt="">
                     </div>
-                    <div class="flex flex-col gap-7">
+                    <div class="flex flex-col gap-3">
                         <div class="flex gap-4">
                             <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
                             <h3 class="font-light">5.00</h3>
@@ -255,23 +259,25 @@
                             <h3 class="font-light">200</h3>
                         </div>
                         <div class="flex flex-col gap-4">
-                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                            <h1 class="text-xl font-bold">Super Mario Hat</h1>
+                            <small class="">Get this exciting product with a discount for those who have coupon codes.</small>
                         </div>
-                        <div class="flex justify-between items-center ">
-                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
-
-                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery
-                                Fee:Free</small>
+                        <div class="flex w-[100%] gap-6 ">
+                            <div>
+                                <h1 class="text-red-800 font-bold ">Price-$14.00</h1>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <small><i class="fas fa-cart-plus text-red-800 mr-1 "></i>Delivery:Free</small>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2 w-[100%]  gap-4 border-3">
                     <div class=" w-full flex justify-center">
-                        <img class="h-full w-10/12 object-cover" src="Images/8.png" alt="">
+                        <img class="h-full w-full object-cover" src="Images/8.png" alt="">
                     </div>
-                    <div class="flex flex-col gap-7">
+                    <div class="flex flex-col gap-3">
                         <div class="flex gap-4">
                             <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
                             <h3 class="font-light">5.00</h3>
@@ -281,23 +287,25 @@
                             <h3 class="font-light">200</h3>
                         </div>
                         <div class="flex flex-col gap-4">
-                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                            <h1 class="text-xl font-bold">Blue Ocean Hockey Jersy</h1>
+                            <small class="">Get this exciting product with a discount for those who have coupon codes.</small>
                         </div>
-                        <div class="flex justify-between items-center ">
-                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
-
-                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery
-                                Fee:Free</small>
+                        <div class="flex w-[100%] gap-6 ">
+                            <div>
+                                <h1 class="text-red-800 font-bold ">Price-$52.00</h1>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <small><i class="fas fa-cart-plus text-red-800 mr-1 "></i>Delivery:Paid</small>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2 w-[100%]  gap-4 border-3">
                     <div class=" w-full flex justify-center">
-                        <img class="h-full w-10/12 object-cover" src="Images/9.png" alt="">
+                        <img class="h-full w-full object-cover" src="Images/9.png" alt="">
                     </div>
-                    <div class="flex flex-col gap-7">
+                    <div class="flex flex-col gap-3">
                         <div class="flex gap-4">
                             <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
                             <h3 class="font-light">5.00</h3>
@@ -307,23 +315,25 @@
                             <h3 class="font-light">200</h3>
                         </div>
                         <div class="flex flex-col gap-4">
-                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                            <h1 class="text-xl font-bold">Comfort Helmet Military Grade</h1>
+                            <small class="">Get this exciting product with a discount for those who have coupon codes.</small>
                         </div>
-                        <div class="flex justify-between items-center ">
-                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
-
-                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery
-                                Fee:Free</small>
+                        <div class="flex w-[100%] gap-6 ">
+                            <div>
+                                <h1 class="text-red-800 font-bold ">Price-$35.00</h1>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <small><i class="fas fa-cart-plus text-red-800 mr-1 "></i>Delivery:Free</small>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2  gap-4 border-3">
+                    class="lg:flex lg:flex-row flex  flex-col justify-center items-center rounded-lg shadow-lg px-3 py-2 w-[100%]  gap-4 border-3">
                     <div class=" w-full flex justify-center">
-                        <img class="h-full w-10/12 object-cover" src="Images/10.png" alt="">
+                        <img class="h-full w-full object-cover" src="Images/10.png" alt="">
                     </div>
-                    <div class="flex flex-col gap-7">
+                    <div class="flex flex-col gap-3">
                         <div class="flex gap-4">
                             <h4><i class="fa fa-star text-amber-300" aria-hidden="true"></i></h4>
                             <h3 class="font-light">5.00</h3>
@@ -333,29 +343,27 @@
                             <h3 class="font-light">200</h3>
                         </div>
                         <div class="flex flex-col gap-4">
-                            <h1 class="text-xl font-bold">World Class Hockey Jersy</h1>
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                            <h1 class="text-xl font-bold">Gift Coupons</h1>
+                            <small class="">Get this exciting product with a discount for those who have coupon codes.</small>
                         </div>
-                        <div class="flex justify-between items-center ">
-                            <h1 class="text-red-800 font-bold text-xl">Price - $22.00</h1>
-
-                            <small class="font-bold"><i class="fas fa-cart-plus  mr-3 text-red-800  "></i>Delivery
-                                Fee:Free</small>
+                        <div class="flex w-[100%] gap-6 ">
+                            <div>
+                                <h1 class="text-red-800 font-bold ">Price-$40.00</h1>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <small><i class="fas fa-cart-plus text-red-800 mr-1 "></i>Delivery:Pay</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </section>
         <!-- client section -->
         <section class="py-10">
             <!-- title -->
-            <div class="title_container">
+            <div class="flex flex-col border-t-2 w-full m-auto justify-center items-center text-center gap-4 pb-16 pt-10">
                 <h1 class="text-4xl font-bold w-full m-auto">Clients Questions</h1>
-                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it
-                    high</small>
+                <small class="w-full opacity-80 mx-auto text-center"> Feel Free to ask any Questions or  check our FAQ sections to get an answer to <br> your long awaited question you might have had</small>
             </div>
             <div class="flex lg:gap-4 flex-col w-full justify-between lg:flex-row">
                 <div class="w-11/12 mx-auto lg:w-4/5 mt-5">
@@ -368,8 +376,7 @@
                             Our Equipments
                         </div>
                         <div class="collapse-content text-justify">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti blanditiis dicta iste
-                                ipsa consectetur saepe adipisci, aspernatur inventore sunt consequatur.</p>
+                            <p>State of the art Equipments ready and steady for us to deliver the highest performance you can think of</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -378,8 +385,7 @@
                             Hockey Training
                         </div>
                         <div class="collapse-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias saepe odio eius culpa
-                                ipsa delectus numquam amet temporibus natus tempora!</p>
+                            <p>Get ready from now no matter what we will train you like a freak and you have to acheive what you want to acheive</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -388,8 +394,7 @@
                             Private Lessons
                         </div>
                         <div class="collapse-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sit illo officiis
-                                enim error iure unde blanditiis tempora voluptas necessitatibus!</p>
+                            <p>Private lessions with experienced coach and athelets</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -398,8 +403,7 @@
                             Ski Touring
                         </div>
                         <div class="collapse-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sit illo officiis
-                                enim error iure unde blanditiis tempora voluptas necessitatibus!</p>
+                            <p>Get ready from now no matter what we will train you like a freak and you have to acheive what you want to acheive</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -408,8 +412,7 @@
                             Booking
                         </div>
                         <div class="collapse-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sit illo officiis
-                                enim error iure unde blanditiis tempora voluptas necessitatibus!</p>
+                            <p>Get ready from now no matter what we will train you like a freak and you have to acheive what you want to acheive</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus ">
@@ -427,45 +430,44 @@
         </section>
         <!-- get in touch section -->
         <section>
-            <div class="title_container">
+            <div class="flex flex-col border-t-2 w-full m-auto justify-center items-center text-center gap-4 pb-16 pt-10">
                 <h1 class="text-4xl font-bold w-full m-auto">Get In Touch</h1>
-                <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it
-                    high</small>
+                <small class="w-full opacity-80 mx-auto text-center"> We are the most favorite name in all of Canada, <br>Do get to know us once in a blue moon or maybe in a full moon</small>
             </div>
             <div class="lg:flex lg:flex-row flex-col w-full gap-10">
-                <div class="flex flex-col  gap-3 items-center">
-                    <div class="flex flex-col  border-2 rounded-lg bg-slate-100 w-64 h-44 bg-base-100 shadow-xl">
+                <div class="flex flex-col  gap-3 items-center border-2 rounded-lg p-3">
+                    <div class="flex flex-col  border-2 rounded-lg bg-red-100 w-64 h-44 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-2">
                             <img src="Images/Group 1171275317.png" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body justify-start">
                             <small class="">Phone Number</small>
-                            <p class="font-bold">(+1) 514-535-4563</p>
+                            <p class="font-bold">(+1) 778-636-3415</p>
                         </div>
                     </div>
-                    <div class="flex flex-col  border-2 rounded-lg bg-slate-100 w-64 h-44 bg-base-100 shadow-xl">
+                    <div class="flex flex-col  border-2 rounded-lg bg-amber-100 w-64 h-44 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-2">
                             <img src="Images/Group 1171275318.png" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body justify-start">
-                            <small class="">Phone Number</small>
-                            <p class="font-bold">(+1) 514-535-4563</p>
+                            <small class="">Email</small>
+                            <p class="font-bold">bishawjit12@gmail.com</p>
 
                         </div>
                     </div>
-                    <div class="flex  flex-col  border-2 rounded-lg bg-slate-100 w-64 h-44 bg-base-100 shadow-xl">
+                    <div class="flex  flex-col  border-2 rounded-lg bg-green-100 w-64 h-44 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-2">
                             <img src="Images/Group 1171275321.png" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body justify-start">
-                            <small class="">Phone Number</small>
-                            <p class="font-bold">(+1) 514-535-4563</p>
+                            <small class="">Location</small>
+                            <p class="font-bold">Montreal,Quebec</p>
 
                         </div>
                     </div>
                 </div>
                 <!-- input fields -->
-                <div class="lg:flex  flex-col w-full">
+                <div class="lg:flex  flex-col w-full p-3 rounded-lg border-2">
                     <div
                         class="lg:flex border-3 gap-5 lg:flex-row flex mt-5 flex-col justify-center lg:justify-between">
                         <label class="form-control w-full ">
@@ -488,14 +490,14 @@
                             <div class="label flex justify-center lg:justify-normal">
                                 <span class="label-text font-bold">Subject</span>
                             </div>
-                            <input type="text" placeholder="Type Name"
+                            <input type="text" placeholder="Subject"
                                 class="input input-bordered bg-gray-50 text-red-400 font-bold w-full" />
                         </label>
                         <label class="form-control w-full">
                             <div class="label flex justify-center lg:justify-normal">
                                 <span class="label-text font-bold">Phone</span>
                             </div>
-                            <input type="text" placeholder="Type Email"
+                            <input type="text" placeholder="Phone"
                                 class="input input-bordered w-full  bg-gray-50 text-red-400 font-bold" />
                         </label>
                     </div>
@@ -525,18 +527,17 @@
         </section>
     </main>
     <!-- footer section -->
-    <footer>
+   
         <footer
             class="footer mt-10 grid grid-col-1 lg:justify-normal justify-center lg:grid-col-4 p-10 bg-neutral text-neutral-content">
             <nav class="">
-                <h6 class="footer-title lg:text-start text-center w-full">Get In Touch</h6>
-                <small class="text-center lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    <br>Similique exercitationem quas <br>adipisci aliquam odio itaque.</small>
-                <div class="flex gap-3 justify-center items-center w-full">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>abcd@gamil.com
+                <h6 class="footer-title lg:text-start text-center w-full">Thought of the Day</h6>
+                <small class="text-center font-bold lg:text-start">“If I had eight hours to chop down a tree, <br> I’d spend six hours sharpening my axe.”<br>- Abraham Lincoln</small>
+                <div class="flex gap-3 lg:justify-start justify-center items-center w-full">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>bishawjit12@gmail.com
                 </div>
-                <div class="flex gap-3 justify-center items-center w-full">
-                    <i class="fa fa-phone" aria-hidden="true"></i>(+1)515-656-345
+                <div class="flex gap-3 lg:justify-normal justify-center items-center w-full">
+                    <i class="fa fa-phone" aria-hidden="true"></i>(+1)778-636-3415
                 </div>
             </nav>
             <div class="flex lg:flex-row gap-28 justify-center items-center ">
@@ -564,7 +565,6 @@
                 <a class="link link-hover">Android</a>
             </nav>
         </footer>
-    </footer>
 </body>
 
 </html>
