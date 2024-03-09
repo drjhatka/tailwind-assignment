@@ -11,12 +11,40 @@
     <title>Ice Hockey Home</title>
 </head>
 
-<body class="container m-auto">
+<body>
     <!-- Minimum Code leads to Maximum Output -->
-    <header>
+    <header  class="container m-auto">
         <!-- navbar section -->
         <section>
-
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown text-center">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-md dropdown-content mt-3 z-[1] p-2 pb-8 bg-amber-50  text-blue font-bold text-xl  w-96 text-center">
+                      <li class="border-b-2 border-red-500  w-full mx-auto text-center"><a class="hover:text-red-700 hover:bg-transparent w-full mx-auto text-center">Home</a></li>
+                      <li class="border-b-2 border-red-500"><a class="hover:text-red-700 hover:bg-transparent">Blog</a></li>
+                      <li class="border-b-2 border-red-500"><a class="hover:text-red-700 hover:bg-transparent">Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">Ice Hockey</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Page</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end relative space-x-3">
+                    <input type="text" placeholder="" class="hidden lg:block input input-bordered w-44 outline-none bg-blue-200 active:bg-yellow-200 border-none focus:none border-b-red-600 border-t-red-600" />
+                    <i class="fa fa-search absolute right-32 hidden lg:block" aria-hidden="true"></i>
+                  <a class="btn bg-red-400 text-white px-5 hover:bg-green-700 hover:text-white">Button</a>
+                </div>
+              </div>
         </section>
         <!-- slider section -->
         <section>
@@ -52,7 +80,7 @@
         </section>
     </header>
 
-    <main>
+    <main  class="container m-auto">
         <!-- stat section -->
         <section class="flex flex-col pt-4 ">
             <!-- title -->
@@ -275,7 +303,7 @@
         </section>
         <!-- client section -->
         <section class="py-10">
-   <!-- title -->
+            <!-- title -->
                 <div class="flex flex-col  m-auto justify-center items-center text-center gap-8 pb-10">
                     <h1 class="text-4xl font-bold w-full m-auto">Clients Questions</h1>
                     <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it high</small>
@@ -339,7 +367,6 @@
                 <h1 class="text-4xl font-bold w-full m-auto">Get In Touch</h1>
                 <small class="w-full m-auto">To you from failing hands we throw the torch. Be yours to hold it high</small>
             </div>
-            
             <div class="lg:flex lg:flex-row flex-col w-full gap-10">
                 <div class="flex flex-col  gap-3 items-center">
                     <div class="flex flex-col  border-2 rounded-lg bg-slate-100 w-64 h-44 bg-base-100 shadow-xl">
@@ -417,7 +444,7 @@
                 </div>
             </div>
         </section>
-        <!-- social media -->
+        <!-- social media section -->
         <section class="bg-slate-300 mt-5 gap-5 rounded-md py-10 text-center  flex justify-center">
            <i class="fab fa-facebook fa-lg fa-fw"></i>
            <i class="fab fa-instagram fa-lg fa-fw"></i>
@@ -426,7 +453,7 @@
         </section>
     </main>
     <footer>
-        <footer class="footer grid grid-col-1 lg:justify-normal justify-center lg:grid-col-4 p-10 bg-neutral text-neutral-content">
+        <footer class="footer mt-10 grid grid-col-1 lg:justify-normal justify-center lg:grid-col-4 p-10 bg-neutral text-neutral-content">
             <nav class="">
                 <h6 class="footer-title lg:text-start text-center w-full">Get In Touch</h6> 
                 <small class="text-center lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Similique exercitationem quas <br>adipisci aliquam odio itaque.</small>
